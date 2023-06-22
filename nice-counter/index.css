@@ -1,0 +1,58 @@
+body {
+  /* 横並びに揃える */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#count {
+  height: 80px;
+
+  /* 数値にたいしてのCSS */
+  font-weight: bold;
+  font-size: 80px;
+}
+
+/*
+あくまで書き方の一例であることに注意
+#incrementにすべてのCSSを書くんじゃなくて
+#increment-textと#increment-buttonに分けて書いたりするのもあり
+*/
+#increment {
+  height: 80px;
+  width: 80px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border-color: #2c2abf;
+
+  /* 「+」文字に対してのCSS */
+  font-size: 60px;
+  font-weight: bold;
+  color: #2c2abf;
+}
+
+#decrement {
+  height: 80px;
+  width: 80px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border-color: #c1482a;
+
+  /* 「-」文字に対してのCSS */
+  font-size: 60px;
+  font-weight: bold;
+  color: #c1482a;
+}
+
+#reset {
+  height: 80px;
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  border-color: plum;
+
+  font-size: 30px;
+  font-weight: bold;
+  color: purple;
+}
