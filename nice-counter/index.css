@@ -1,9 +1,10 @@
 body {
-  /* 横並びに揃える */
+  /* 列並びに揃える */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 16px;
 }
 
 #count {
